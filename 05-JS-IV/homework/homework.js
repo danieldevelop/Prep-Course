@@ -23,7 +23,6 @@ function agregarPropiedad (objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  // ? Porque es al agregar un argumento al objecto, debo manteber los espacios entre si
   objeto[property] = null;
   return objeto;
 }
